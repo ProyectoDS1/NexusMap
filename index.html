@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width">
     <title>NexusMap</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <!–Aplicar iconos de google–>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!link para estilos->
+	<link rel="stylesheet" href="css/estilo.css" media="screen">
+	<link rel="stylesheet" href="css/estilos1.css" media="screen">
+	
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 </head>
@@ -20,13 +27,42 @@
    <li><a href="events.html" title="">Events</a></li>
    </ul>
   </nav>
-  <section id="googlemap">
+  <section id="user_bar">
   <form action="/action_page.php">
-  <input type="text" name="FirstName" value="">
-</form>
+  <input type="text" name="search" value="Espol"><i class="material-icons md-48">account_circle</i><button type="button">Login</button>
+  </form>
+  </section>
   </section>
   <section id="googlemap">
-  <p>map<p>
+  <h1>mapa<h1>
+  <img src="imagenes/mapa_example.jpg" alt="">
+  </section>
+  <section id="barra_progreso">
+  <h1>barra progreso<h1>
+    <div id="myProgress">
+    <div id="myBar"></div>
+    </div><i class="material-icons md-48">alarm</i><i class="material-icons md-48">directions_walk</i>
+  </section>
+  <section id="tabla_clases">
+  <h1>Tabla<h1>
+  <table>
+  <tr>
+    <th>Clases</th>
+	<th>Estado</th>
+  </tr>
+  <tr>
+    <td>Algebra Lineal</td>
+    <td><input type="checkbox" name="vehicle1" value="Bike" checked><br></td>
+  </tr>
+  <tr>
+    <td>Calculo de Una Variable</td>
+    <td><input type="checkbox" name="vehicle1" value="Bike" ><br></td>
+   </tr>
+   <tr>
+    <td>Comunicación 1</td>
+    <td><input type="checkbox" name="vehicle1" value="Bike" ><br></td>
+   </tr>
+</table>
   </section>
 <footer>
  <p>Contact us: <a href="#">@NexusMap<a><p>
